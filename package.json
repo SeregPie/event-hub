@@ -1,0 +1,28 @@
+{
+  "name": "@seregpie/event-hub",
+  "version": "0.0.0",
+  "description": "...",
+  "keywords": [],
+  "repository": "github:SeregPie/event-hub",
+  "license": "MIT",
+  "author": "Sergej Sintschilin <seregpie@gmail.com>",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc -p ./ && tsc -p ./src",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "build": "bun run ./scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "oxfmt": "^0.71.0",
+    "tsdown": "^0.23.0",
+    "typescript": "^7.0.2"
+  }
+}

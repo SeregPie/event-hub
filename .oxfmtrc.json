@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "bracketSpacing": false,
+  "htmlWhitespaceSensitivity": "strict",
+  "printWidth": 120,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "sortImports": true,
+  "sortPackageJson": false
+}
