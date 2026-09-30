@@ -16,7 +16,7 @@ jobs:
 
       - uses: oven-sh/setup-bun@v2
 
-      - run: bun install
+      - run: bun i
 
       - run: bun run typecheck
 

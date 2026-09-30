@@ -14,7 +14,6 @@
   "type": "module",
   "scripts": {
     "test": "bun test",
-    "typecheck": "tsc -p ./ && tsc -p ./src",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
     "build": "bun run ./scripts/build.ts"
